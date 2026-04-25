@@ -22,14 +22,14 @@ Designed to stay token-light: the always-loaded `CLAUDE.md` snippet is ~120 toke
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/<your-username>/claude-security-audit.git ~/.claude/skills/security-audit
+git clone https://github.com/MikolajZyga/claude-security-audit.git ~/.claude/skills/security-audit
 ```
 
 ### Project-level (single repo only)
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/<your-username>/claude-security-audit.git .claude/skills/security-audit
+git clone https://github.com/MikolajZyga/claude-security-audit.git .claude/skills/security-audit
 ```
 
 That's it. Claude Code will pick the skill up automatically. Next time you open a project and ask Claude to audit, scan, or check security, it'll trigger.
