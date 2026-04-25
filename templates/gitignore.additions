@@ -1,0 +1,30 @@
+# --- security-audit additions ---
+# Real env files (never commit these)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+.env.test
+
+# Service accounts and credentials
+*service-account*.json
+*serviceAccount*.json
+*firebase-adminsdk*.json
+*-credentials.json
+gcp-key.json
+.aws/
+.netrc
+
+# Common secret stores
+secrets/
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Editor / OS artifacts that sometimes leak
+.vscode/settings.local.json
+.idea/workspace.xml
+.DS_Store
